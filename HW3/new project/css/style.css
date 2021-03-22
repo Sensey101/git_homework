@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.block1 {
+    max-width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: 2px dashed red;
+    background-color: green;
+}
+
+.block2 {
+    max-width: 1170px;
+    text-align: justify;
+}
+
+.htmlimage {
+    max-width: 200px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    float: left;
+}
+.image53 {
+    max-width: 150px;
+    padding: 20px 0px 10px 20px;
+    float: right;
+}
