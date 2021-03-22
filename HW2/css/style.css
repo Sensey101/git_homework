@@ -1,0 +1,39 @@
+blockquote {
+    color: red;
+}
+a[href^='https'] {
+    color: red;
+}
+li:nth-child(4) {
+    background-color: green;
+    display: inline;
+}
+ul~p {
+    font-size: 26px;
+}
+.text-box h3:first-child {
+  color:pink;
+}
+#greycol {
+  color:grey;
+}
+.text-box div p {
+  color:red;
+}
+
+.yellow {
+  color:yellow;
+}
+.text-box p:nth-child(7) {
+  color:green;
+}
+.bg-box {
+  width: 800px;
+  height: 600px;
+  background: url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg") center center / 500px 300px no-repeat content-box, 
+  url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png") left bottom / 200px 200px repeat-x content-box, 
+  url("https://www.freeiconspng.com/uploads/lamp-png-0.png") left top / 50px 70px repeat-x content-box, 
+  url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru") left top / 30px 30px repeat-y content-box, 
+  url("https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png") right top / 50px 50px repeat-y content-box;
+  background-color: green;
+    }
